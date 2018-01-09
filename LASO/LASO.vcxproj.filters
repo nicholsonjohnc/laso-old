@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Examples">
+      <UniqueIdentifier>{ba4b8299-99f8-4918-92e4-e8cc175c49aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Examples">
+      <UniqueIdentifier>{22718b4b-1ba2-4479-9b4a-aa5e5201c26b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionsLM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionsP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionsSNOPT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LASO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProblemAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RecursionLBFGS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolverAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HS071.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS002.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS004.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS005.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS006.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS010.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS015.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS018.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS021.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS022.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS028.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS033.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS035.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS039.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS040.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS043.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="HS055.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="INCONSISTENT.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="SP002.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="SPRING.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="SP007.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="POWELLBADLYSCALED.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="ROBOT.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="SolverQP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FunctionsLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionsP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionsSNOPT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LASO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProblemAL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursionLBFGS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolverAL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HS071.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS002.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS004.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS005.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS006.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS010.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS015.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS018.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS021.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS022.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS028.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS033.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS035.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS039.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS040.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS043.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS055.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="INCONSISTENT.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="SP002.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="SPRING.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="SP007.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="POWELLBADLYSCALED.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="ROBOT.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="SolverQP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{f1685f5d-4609-4e53-81ef-750e8e25659a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Files\Examples">
+      <UniqueIdentifier>{29ed540f-9011-48e3-8a64-21202941099c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Examples">
+      <UniqueIdentifier>{ece8fe4b-a7c9-4101-9ef1-33be292b76be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Examples">
+      <UniqueIdentifier>{d38a0201-3386-4302-bfc6-04cf8621ff46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HS071Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS071.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\FunctionsLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\FunctionsP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\FunctionsSNOPT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\ProblemAL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\RecursionLBFGS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\SolverAL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionsLMTest.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionsPTest.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsTest.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProblemALTest.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursionLBFGSTest.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS002.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS004.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS005.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS006.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS010.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS015.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS018.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS021.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS022.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS028.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS033.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS035.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS039.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS040.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS043.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\HS055.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\SP002.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\SPRING.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS002Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS004Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS005Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS006Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS010Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS015Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS018Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS021Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS022Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS028Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS033Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS035Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS039Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS040Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS043Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="HS055Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="INCONSISTENTTest.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="SP002Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="SPRINGTest.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\INCONSISTENT.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="SolverALTest.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SP007Test.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\SP007.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="POWELLBADLYSCALEDTest.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\POWELLBADLYSCALED.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="ROBOTTest.cpp">
+      <Filter>Test Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LASO\SolverQP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolverQPTest.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\LASO\HS071.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\FunctionsLM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\FunctionsP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\FunctionsSNOPT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\IFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\ProblemAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\RecursionLBFGS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\SolverAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS002.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS004.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS005.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS006.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS010.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS015.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS018.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS021.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS022.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS028.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS033.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS035.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS039.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS040.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS043.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\HS055.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\INCONSISTENT.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\SP002.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\SPRING.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\SP007.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\POWELLBADLYSCALED.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LASO\SolverQP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

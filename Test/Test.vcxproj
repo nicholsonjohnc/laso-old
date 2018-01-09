@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E645FF8-EA1B-48DB-AED8-0F0F5EB43E4C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Test</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\JOCONI\LASO\LASOAndClientAndTest\LASO;$(VCInstallDir)UnitTest\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VCInstallDir)UnitTest\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TEST_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\cygwin\home\jnichols\armadillo-7.800.2\include;C:\cygwin\home\jnichols\eigen-eigen-67e894c6cd8f\eigen-eigen-67e894c6cd8f;C:\cygwin\home\jnichols\boost_1_63_0\boost_1_63_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\cygwin\home\jnichols\boost_1_63_0\boost_1_63_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;TEST_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TEST_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\cygwin\home\jnichols\armadillo-7.800.2\include;C:\cygwin\home\jnichols\eigen-eigen-67e894c6cd8f\eigen-eigen-67e894c6cd8f;C:\cygwin\home\jnichols\boost_1_63_0\boost_1_63_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\cygwin\home\jnichols\boost_1_63_0\boost_1_63_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;TEST_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\LASO\FunctionsLM.cpp" />
+    <ClCompile Include="..\LASO\FunctionsP.cpp" />
+    <ClCompile Include="..\LASO\FunctionsSNOPT.cpp" />
+    <ClCompile Include="..\LASO\HS002.cpp" />
+    <ClCompile Include="..\LASO\HS004.cpp" />
+    <ClCompile Include="..\LASO\HS005.cpp" />
+    <ClCompile Include="..\LASO\HS006.cpp" />
+    <ClCompile Include="..\LASO\HS010.cpp" />
+    <ClCompile Include="..\LASO\HS015.cpp" />
+    <ClCompile Include="..\LASO\HS018.cpp" />
+    <ClCompile Include="..\LASO\HS021.cpp" />
+    <ClCompile Include="..\LASO\HS022.cpp" />
+    <ClCompile Include="..\LASO\HS028.cpp" />
+    <ClCompile Include="..\LASO\HS033.cpp" />
+    <ClCompile Include="..\LASO\HS035.cpp" />
+    <ClCompile Include="..\LASO\HS039.cpp" />
+    <ClCompile Include="..\LASO\HS040.cpp" />
+    <ClCompile Include="..\LASO\HS043.cpp" />
+    <ClCompile Include="..\LASO\HS055.cpp" />
+    <ClCompile Include="..\LASO\HS071.cpp" />
+    <ClCompile Include="..\LASO\INCONSISTENT.cpp" />
+    <ClCompile Include="..\LASO\Options.cpp" />
+    <ClCompile Include="..\LASO\POWELLBADLYSCALED.cpp" />
+    <ClCompile Include="..\LASO\ProblemAL.cpp" />
+    <ClCompile Include="..\LASO\RecursionLBFGS.cpp" />
+    <ClCompile Include="..\LASO\SolverAL.cpp" />
+    <ClCompile Include="..\LASO\SolverQP.cpp" />
+    <ClCompile Include="..\LASO\SP002.cpp" />
+    <ClCompile Include="..\LASO\SP007.cpp" />
+    <ClCompile Include="..\LASO\SPRING.cpp" />
+    <ClCompile Include="FunctionsLMTest.cpp" />
+    <ClCompile Include="FunctionsPTest.cpp" />
+    <ClCompile Include="HS002Test.cpp" />
+    <ClCompile Include="HS004Test.cpp" />
+    <ClCompile Include="HS005Test.cpp" />
+    <ClCompile Include="HS006Test.cpp" />
+    <ClCompile Include="HS010Test.cpp" />
+    <ClCompile Include="HS015Test.cpp" />
+    <ClCompile Include="HS018Test.cpp" />
+    <ClCompile Include="HS021Test.cpp" />
+    <ClCompile Include="HS022Test.cpp" />
+    <ClCompile Include="HS028Test.cpp" />
+    <ClCompile Include="HS033Test.cpp" />
+    <ClCompile Include="HS035Test.cpp" />
+    <ClCompile Include="HS039Test.cpp" />
+    <ClCompile Include="HS040Test.cpp" />
+    <ClCompile Include="HS043Test.cpp" />
+    <ClCompile Include="HS055Test.cpp" />
+    <ClCompile Include="HS071Test.cpp" />
+    <ClCompile Include="INCONSISTENTTest.cpp" />
+    <ClCompile Include="OptionsTest.cpp" />
+    <ClCompile Include="POWELLBADLYSCALEDTest.cpp" />
+    <ClCompile Include="ProblemALTest.cpp" />
+    <ClCompile Include="RecursionLBFGSTest.cpp" />
+    <ClCompile Include="ROBOTTest.cpp" />
+    <ClCompile Include="SolverALTest.cpp" />
+    <ClCompile Include="SolverQPTest.cpp" />
+    <ClCompile Include="SP002Test.cpp" />
+    <ClCompile Include="SP007Test.cpp" />
+    <ClCompile Include="SPRINGTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\LASO\Common.h" />
+    <ClInclude Include="..\LASO\FunctionsLM.h" />
+    <ClInclude Include="..\LASO\FunctionsP.h" />
+    <ClInclude Include="..\LASO\FunctionsSNOPT.h" />
+    <ClInclude Include="..\LASO\HS002.h" />
+    <ClInclude Include="..\LASO\HS004.h" />
+    <ClInclude Include="..\LASO\HS005.h" />
+    <ClInclude Include="..\LASO\HS006.h" />
+    <ClInclude Include="..\LASO\HS010.h" />
+    <ClInclude Include="..\LASO\HS015.h" />
+    <ClInclude Include="..\LASO\HS018.h" />
+    <ClInclude Include="..\LASO\HS021.h" />
+    <ClInclude Include="..\LASO\HS022.h" />
+    <ClInclude Include="..\LASO\HS028.h" />
+    <ClInclude Include="..\LASO\HS033.h" />
+    <ClInclude Include="..\LASO\HS035.h" />
+    <ClInclude Include="..\LASO\HS039.h" />
+    <ClInclude Include="..\LASO\HS040.h" />
+    <ClInclude Include="..\LASO\HS043.h" />
+    <ClInclude Include="..\LASO\HS055.h" />
+    <ClInclude Include="..\LASO\HS071.h" />
+    <ClInclude Include="..\LASO\IFunctions.h" />
+    <ClInclude Include="..\LASO\INCONSISTENT.h" />
+    <ClInclude Include="..\LASO\Options.h" />
+    <ClInclude Include="..\LASO\POWELLBADLYSCALED.h" />
+    <ClInclude Include="..\LASO\ProblemAL.h" />
+    <ClInclude Include="..\LASO\RecursionLBFGS.h" />
+    <ClInclude Include="..\LASO\SolverAL.h" />
+    <ClInclude Include="..\LASO\SolverQP.h" />
+    <ClInclude Include="..\LASO\SP002.h" />
+    <ClInclude Include="..\LASO\SP007.h" />
+    <ClInclude Include="..\LASO\SPRING.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
